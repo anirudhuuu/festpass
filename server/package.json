@@ -1,0 +1,15 @@
+{
+  "name": "festpass-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch-path=src --watch-path=demo --env-file=.env src/index.js",
+    "start": "node --env-file=.env src/index.js",
+    "seed": "node --env-file=.env src/seed.js",
+    "check": "node --env-file=.env demo/cli.js"
+  },
+  "dependencies": {
+    "express": "5.1.0",
+    "mongoose": "^8.9.5"
+  }
+}

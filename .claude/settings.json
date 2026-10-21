@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./server/demo/**)",
+      "Edit(./server/demo/**)",
+      "Read(./client/src/demo/**)",
+      "Edit(./client/src/demo/**)"
+    ]
+  }
+}
